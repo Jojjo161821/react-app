@@ -1,0 +1,102 @@
+:root[data-theme='light'] {
+  --color-primary: #6366F1;
+  --color-gradient: linear-gradient(#6366F1 0%, #8B5CF6 50%, #D946EF 100%);
+  --color-yellow: #FFBA08;
+  --color-green: #22C55E;
+  --color-transparent: transparent;
+
+  --color-white: #FFFFFF;
+  --color-gray-100: #F3F6FF;
+  --color-gray-300: #E2E5F1;
+  --color-gray-400: #D4D7E5;
+  --color-gray-500: #B4B7C9;
+  --color-gray-600: #9397AD;
+  --color-gray-700: #565973;
+  --color-gray-800: #33354D;
+  --color-gray-900: #0B0F19;
+
+  --color-bg-hero: var(--color-primary); 
+  --color-bg-hero-linear: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+  --color-bg-primary: var(--color-white);
+  --color-bg-second: var(--color-gray-100);
+  --color-bg-form: var(--color-white);
+  --color-bg-dropdown: var(--color-white);
+
+  --color-text-primary: var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-700);
+
+  --color-bg-btn: var(--color-gray-900);
+  --color-btn-round: var(--color-white);
+  --color-btn-round-secondary: var(--color-gray-100);
+  --color-bg-card:var(--color-white);
+  --color-bg-accordion: var(--color-white);
+  --color-bg-accordion-content: #fafafa;
+  --color-bg-input-desktop: var(--color-white);
+  --color-bg-input: var(--color-white);
+  --color-btn-hover: #6164f7e7;
+  --color-btn-active: #6365f1a6;
+  --color-btn-hover-secondary: var(--color-primary);
+  --color-btn-active-secondary: #6164f7e7;
+
+  --color-border: var(--color-gray-300);
+  --color-border-input: var(--color-gray-400);
+
+  --shadow-btn-round: 0px 4px 5px var(--color-gray-300);
+  --shadow-cards: 5px 5px 10px var(--color-gray-300);
+  --shadow-accordion: 0px 2px 10px var(--color-gray-300);
+
+}
+
+:root[data-theme='dark'] {
+  --color-primary: #6366F1;
+  --color-gradient: linear-gradient(#6366F1 0%, #8B5CF6 50%, #D946EF 100%);
+  --color-yellow: #FFBA08;
+  --color-green: #22C55E;
+  --color-transparent: transparent;
+
+  --color-white: #FFFFFF;
+  --color-gray-100: #F3F6FF;
+  --color-gray-300: #E2E5F1;
+  --color-gray-400: #D4D7E5;
+  --color-gray-500: #B4B7C9;
+  --color-gray-600: #9397AD;
+  --color-gray-700: #565973;
+  --color-gray-800: #33354D;
+  --color-gray-900: #0B0F19;
+  background-color: var(--color-gray-900);
+  --color-bg-hero: var(--color-gray-900); 
+  --color-bg-hero-linear: linear-gradient(0deg, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 50%, rgb(19, 16, 34, 0.01) 100%);
+  --color-bg-primary: var(--color-gray-900);
+  --color-bg-second: rgb(243, 246, 255, 0.04);
+  --color-bg-form: #33354d6b;
+  --color-bg-dropdown: var(--color-gray-800);
+
+  --color-text-primary: var(--color-white);
+  --color-text-secondary: #ffffffaf;
+
+  --color-bg-btn: var(--color-white);
+  --color-btn-round: rgba(255, 255, 255, 0.05);
+  --color-btn-round-secondary: rgb(255, 255, 255, 0.04);
+  --color-bg-card: rgb(255, 255, 255, 0.04); 
+  --color-bg-accordion: rgb(255, 255, 255, 0.04);
+  --color-bg-accordion-content: rgb(255, 255, 255, 0.04);
+  --color-bg-input-desktop: rgb(255, 255, 255, 0.02);
+  --color-bg-input: var(--color-white);
+  --color-btn-hover-secondary: #ffffffe5;
+  --color-btn-active-secondary: #ffffffa1;
+
+  --color-border: rgba(255, 255, 255, 0.15);
+  --color-border-input: rgb(255, 255, 255, 0.2);
+  
+  --shadow-btn-round: none;
+  --shadow-cards: none;
+  --shadow-accordion: none;
+
+  .darkmode-on {
+    display: block;
+  }
+  
+  .darkmode-off {
+    display: none;
+  }
+}
